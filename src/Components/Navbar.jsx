@@ -12,7 +12,10 @@ const Navbar = () => {
   return (
     <div className='bg-slate-800 flex w-full justify-center items-center'>
         <div className='w-[1000px] flex justify-between items-center '>
-            <img src={StyleMart} className='h-[72px] hover:cursor-pointer' alt="" />
+            <Link to='/'>
+                <img src={StyleMart} className='h-[72px] hover:cursor-pointer' alt="" />
+            </Link>
+            
             <div className='mr-15'>
                 <ul className='flex text-white gap-8 text-[1.1rem] font-semibold'>
                     <Link to='/' >
