@@ -27,7 +27,7 @@ const Home = () => {
   },[])
 
   return (
-    <div className='w-full h-full flex justify-center items-center'>
+    <div className='w-full h-full flex justify-center items-center mb-8 '>
         <div className='w-[980px] ml-5 mt-8 '>
           {
             (loading)?

@@ -25,7 +25,7 @@ const ProductItem = ({ product }) => {
       <p className='text-[0.8rem] text-gray-400 '>{product.description.split(" ").slice(0, 10).join(" ") + "..."}</p>
       <img src={product.image} className='h-[170px] self-center object-contain' alt={product.title} />
       <div className='flex justify-between items-center mb-1'>
-        <p className='text-green-600 font-bold text-[1.1rem]'>${product.price}</p>
+        <p className='text-green-600 font-bold cartItemNumber text-[1.1rem]'>${product.price}</p>
         <button
           className='border-2 text-[0.85rem] hover:text-white text-slate-700 hover:cursor-pointer font-semibold hover:bg-slate-700 transition-all duration-300 border-slate-600 rounded-2xl py-1 px-3'
           onClick={isInCart ? handleRemove : handleAdd}

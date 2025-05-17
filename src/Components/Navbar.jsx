@@ -38,9 +38,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <Link to='/cart'>
-                <div className='hover:cursor-pointer relative' >
+                <div className='hover:cursor-pointer relative ' >
                     <FaShoppingCart className='text-white text-[2rem]' />
-                    <div className='absolute text-[0.7rem] font-semibold bottom-5 left-5 animate-bounce px-[0.35rem] rounded-full bg-green-600'>{cart.length}</div>
+                    <div className='absolute text-[0.78rem]  bottom-5 left-5 animate-bounce px-[0.38rem] text-white rounded-full bg-green-600 cartItemNumber'>{cart.length}</div>
                 </div>
             </Link>
 

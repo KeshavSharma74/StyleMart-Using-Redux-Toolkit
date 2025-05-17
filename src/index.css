@@ -1,4 +1,9 @@
 @import "tailwindcss";
 
+*{
+    font-family: "Playfair Display", serif;
+}
 
-
+.cartItemNumber{
+    font-family:'Times New Roman', Times, serif;
+}
