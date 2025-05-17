@@ -34,14 +34,14 @@ const Cart = () => {
 
             <p className='text-[1.5rem] text-green-700 font-semibold'>
               Total Items: 
-              <span className='text-[1.7rem] text-slate-700 ml-2'>
+              <span className='text-[1.7rem] text-slate-700 cartItemNumber ml-2'>
                 {cart.length}
               </span>
             </p>
 
             <p className='text-[1.5rem] text-green-700 font-semibold'>
               Total Price: 
-              <span className='text-[1.7rem] text-slate-700 ml-2'>
+              <span className='text-[1.7rem] text-slate-700 cartItemNumber ml-2'>
                 ${amount.toFixed(2)}
               </span>
             </p>

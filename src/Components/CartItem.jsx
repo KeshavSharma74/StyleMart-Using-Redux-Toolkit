@@ -21,7 +21,7 @@ const CartItem = (props) => {
             <div className='flex justify-between'>
                   <p className='cartItemNumber text-[1.3rem] text-green-600 font-bold '>${item.price}</p>
                   <button className='hover:cursor-pointer' onClick={handleDelete} >
-                    <MdDelete className='text-[1.7rem] text-red-400 hover:text-red-700' />
+                    <MdDelete className='text-[1.7rem] text-red-400 0 hover:text-red-700' />
                   </button>
             </div>
         </div>
