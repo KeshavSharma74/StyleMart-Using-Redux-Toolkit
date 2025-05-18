@@ -7,6 +7,7 @@ import Services from './Pages/Services'
 import Cart from './Pages/Cart'
 import Blogs from './Pages/Blogs'
 import Features from './Pages/Features'
+import ProductDetails from './Pages/ProductDetails'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
                 <Route className path='/blogs' element={<Blogs></Blogs>} ></Route>
                 <Route className path='/features' element={<Features></Features>} ></Route>
                 <Route className path='/cart' element={<Cart></Cart>} ></Route>
+                <Route className path='/product/:id'  element={<ProductDetails></ProductDetails>} ></Route>
               </Routes>
         </div>
 

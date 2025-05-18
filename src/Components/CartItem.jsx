@@ -13,7 +13,7 @@ const CartItem = (props) => {
     }
 
   return (
-    <div className='shadow-2xl w-11/12 rounded-2xl flex p-5 gap-3 transition-all duration-300 hover:scale-105'>
+    <div className='shadow-2xl w-11/12 border-[0.5px] border-gray-400  rounded-2xl flex p-5 gap-3 transition-all duration-300 hover:scale-105'>
         <img src={item.image} className='h-[185px]' alt="" />
         <div className='flex flex-col gap-4'>
             <h1 className='text-slate-700 font-bold text-[1.1rem]' >{item.title.substring(0,14)+"..."}</h1>
