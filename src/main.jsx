@@ -13,7 +13,18 @@ createRoot(document.getElementById('root')).render(
     <Provider store={store} >
         <BrowserRouter>
             <App/>
-            <ToastContainer ></ToastContainer>
+            <ToastContainer
+            position="top-right"
+            autoClose={3000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            style={{ marginTop: "4rem" }} 
+          />
         </BrowserRouter>
     </Provider>
   </StrictMode>,
