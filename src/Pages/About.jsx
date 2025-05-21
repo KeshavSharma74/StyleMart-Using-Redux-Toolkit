@@ -208,10 +208,23 @@
 // export default About;
 
 import React from 'react'
+import image from '../../public/image.png'
+
 
 const About = () => {
   return (
-    <div>About</div>
+    <div className='w-full flex justify-around items-center'>
+      <div className='w-[980px] ml-6 h-screen border border-black flex flex-col justify-center items-center'>
+          <div className='text-center flex flex-col items-center justify-center'>
+              <h1 className='text-slate-800 font-bold text-[1.693rem] text-center'>Who I Am <br /> and What Inspires Me</h1>
+              <div className='h-1 w-10 bg-green-300 mt-2 text-center'></div>
+          </div>
+          <div className='mt-5'>
+            <img src={image} className='w-[260px] rounded-xl' alt="" />
+
+          </div>
+      </div>
+    </div>
   )
 }
 
